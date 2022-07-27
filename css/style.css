@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 100px 0px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    font-size: 17px;
+    align-items: center;
+
+}
+.navbar__button{
+    padding: 17px 40px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+.container__heading{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 100px;
+}
+.lamp{
+    display: flex;
+    font-size: 50px;
+    font-family: Poppins SemiBold;
+    margin: 50px 0px 0px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+.heading__img{
+    width: 600px;
+    height: 600px;
+}
+.heading__text{
+    font-size: 20px;
+    color: #8F95A5;
+}
+.button{
+    width: 350px;
+    padding: 20px 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #263238;
+    font-size: 26px;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+    margin-bottom: 150px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+.skillsbox{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px; 
+    margin-bottom: 100px;
+}
+span{
+    font-family: Poppins SemiBold;
+    font-size: 25px;
+    color: #263238;
+}
+.skills{
+    color: #8F95A5;
+    background-color:#F5F5F5 ;
+}
+.speaking{
+    height: 770px;
+    width: 430px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: #8F95A5;
+    background-color:#F5F5F5 ;
+}
+.skills__button{
+    color: #FFFFFF;
+    background-color: #263238;
+    padding: 15px 50px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 35px;
+
+}
+.others{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills{
+    width: 380px;
+    height: 470px;
+    color: #8F95A5;
+    background-color:#F5F5F5 ;
+    border-radius: 10px;
+    padding: 20px 20px;
+
+}
+.skills img{
+ width: 300px;
+ height: 200px;
+}
+.writing img{
+    margin-left: 80px;
+}
+.reading img{
+    height: 180px;
+}
+.listening{
+    display: flex;
+    padding: 30px 20px;
+    color: #8F95A5;
+    background-color:#F5F5F5 ;
+    border-radius: 10px;
+    width: 770px;
+    height: 290px;
+}
+.listening img{
+    width: 380px;
+    height: 240px;
+}
+.listening__text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about{
+    color: #8F95A5;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+}
+.about__head{ 
+    font-family: Poppins SemiBold;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+.numbers{
+    color: #8F95A5;
+    font-size: 16px;
+    font-family:Poppins;
+}
+.statistics{
+    display: flex;
+    justify-content: space-between;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins SemiBold;
+    font-size: 44px;
+}
+.about__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:18px ;
+}
+.about__text img{
+    height: 450px;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    color: #8F95A5;
+    font-size: 18px;
+    
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.price img{
+    height: 300px;
+}
+.per__month{
+    text-align: center;
+    gap: 10px;
+    background-color: #EEEEEE;
+    width: 220px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #546269;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.emailbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+.email{
+    width: 310px;
+    height: 60px;
+    padding: 20px;
+    border: 1px solid #8F95A5;
+border-radius: 4px;
+}
+.subscribe{
+    background-color: #263238;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 165px;
+    height: 60px;
+}
+.foot{
+    margin-bottom: 0;
+}
+.footer{
+    border-top: 1px solid #C4C4C4;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #8F95A5;
+}
+
+@media (max-width:992px)
+
+
